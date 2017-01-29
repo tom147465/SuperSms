@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.supinfo.supsms.BackupActivity" >
+	
+    
+    <CheckedTextView
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="18dp"
+        android:text="Log Out" />
+
+    <Button
+        android:id="@+id/button_backupsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_backupcontacts"
+        android:layout_below="@+id/Logout"
+        android:layout_marginTop="21dp"
+        android:text="SMS BACKUPS" />
+
+    <Button
+        android:id="@+id/button_backupcontacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_backupsms"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:text="CONTACTS BACKUPS" />
+
+    <CheckedTextView
+        android:id="@+id/button_ABOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Logout"
+        android:layout_alignBottom="@+id/Logout"
+        android:layout_alignParentLeft="true"
+        android:text="ABOUT" />
+    
+</RelativeLayout>
